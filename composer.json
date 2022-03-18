@@ -1,5 +1,5 @@
 {
-    "name": "lee-to/laravel-phone-auth",
+    "name": "ert3e/laravel-phone-auth",
     "description": "Laravel+livewire phone auth module",
     "keywords": ["laravel", "livewire", "phone auth", "phone register", "phone login"],
     "type": "library",
