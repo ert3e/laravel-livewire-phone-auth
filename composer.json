@@ -28,13 +28,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Leeto\\PhoneAuth\\Tests\\": "tests/"
+            "Ert3e\\PhoneAuth\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Leeto\\PhoneAuth\\Providers\\PhoneAuthServiceProvider"
+                "Ert3e\\PhoneAuth\\Providers\\PhoneAuthServiceProvider"
             ]
         }
     }
