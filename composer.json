@@ -18,6 +18,7 @@
             "name": "Dmitriy Samoylenko"
         }
     ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Ert3e\\PhoneAuth\\": "src/"
