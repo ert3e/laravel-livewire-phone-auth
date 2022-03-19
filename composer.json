@@ -3,7 +3,7 @@
     "description": "Laravel+livewire phone auth module",
     "keywords": ["laravel", "livewire", "phone auth", "phone register", "phone login"],
     "type": "library",
-    "homepage": "https://github.com/lee-to/laravel-phone-auth",
+    "homepage": "https://github.com/ert3e/laravel-phone-auth",
     "require": {
         "php": "^7.3|^8.0",
         "doctrine/dbal": "^2.0"
@@ -15,15 +15,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Danil Shutsky",
-            "email": "leetodev@ya.ru",
-            "homepage": "https://github.com/lee-to"
+            "name": "Dmitriy Samoylenko"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Leeto\\PhoneAuth\\": "src/"
+            "Ert3e\\PhoneAuth\\": "src/"
         }
     },
     "autoload-dev": {
