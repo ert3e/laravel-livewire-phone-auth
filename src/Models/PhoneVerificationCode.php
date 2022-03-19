@@ -1,9 +1,9 @@
 <?php
 
-namespace Leeto\PhoneAuth\Models;
+namespace Ert3e\PhoneAuth\Models;
 
-use Leeto\PhoneAuth\Casts\PhoneCast;
-use Leeto\PhoneAuth\Exceptions\PhoneAuthLimitException;
+use Ert3e\PhoneAuth\Casts\PhoneCast;
+use Ert3e\PhoneAuth\Exceptions\PhoneAuthLimitException;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -11,7 +11,7 @@ use Illuminate\Support\Str;
 
 /**
  * Class PhoneVerificationCode
- * @package Leeto\PhoneAuth\Models
+ * @package Ert3e\PhoneAuth\Models
  */
 class PhoneVerificationCode extends Model
 {

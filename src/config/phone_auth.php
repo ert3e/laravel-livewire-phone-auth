@@ -30,7 +30,7 @@ return [
     ],
 
     "sms_service" => [
-        "class" => \Leeto\PhoneAuth\SmsServiceExample::class,
+        "class" => \Ert3e\PhoneAuth\SmsServiceExample::class,
         "settings" => [],
     ]
 ];

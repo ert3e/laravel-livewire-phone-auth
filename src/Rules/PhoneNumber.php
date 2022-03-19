@@ -1,6 +1,6 @@
 <?php
 
-namespace Leeto\PhoneAuth\Rules;
+namespace Ert3e\PhoneAuth\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Str;

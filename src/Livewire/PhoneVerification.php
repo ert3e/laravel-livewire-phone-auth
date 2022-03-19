@@ -1,13 +1,13 @@
 <?php
 
-namespace Leeto\PhoneAuth\Livewire;
+namespace Ert3e\PhoneAuth\Livewire;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Leeto\PhoneAuth\Exceptions\PhoneAuthLimitException;
-use Leeto\PhoneAuth\Models\ConfirmedPhone;
-use Leeto\PhoneAuth\Models\PhoneVerificationCode;
-use Leeto\PhoneAuth\Rules\PhoneNumber;
+use Ert3e\PhoneAuth\Exceptions\PhoneAuthLimitException;
+use Ert3e\PhoneAuth\Models\ConfirmedPhone;
+use Ert3e\PhoneAuth\Models\PhoneVerificationCode;
+use Ert3e\PhoneAuth\Rules\PhoneNumber;
 
 use App\Models\User;
 
@@ -15,7 +15,7 @@ use Livewire\Component;
 
 /**
  * Class PhoneVerification
- * @package Leeto\PhoneAuth\Livewire
+ * @package Ert3e\PhoneAuth\Livewire
  */
 class PhoneVerification extends Component
 {

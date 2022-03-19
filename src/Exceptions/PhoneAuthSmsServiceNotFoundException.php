@@ -1,12 +1,12 @@
 <?php
 
-namespace Leeto\PhoneAuth\Exceptions;
+namespace Ert3e\PhoneAuth\Exceptions;
 
 use Exception;
 
 /**
  * Class PhoneAuthSmsServiceNotFoundException
- * @package Leeto\PhoneAuth\Exceptions
+ * @package Ert3e\PhoneAuth\Exceptions
  */
 class PhoneAuthSmsServiceNotFoundException extends Exception
 {

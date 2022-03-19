@@ -1,9 +1,9 @@
 <?php
 
-namespace Leeto\PhoneAuth\Providers;
+namespace Ert3e\PhoneAuth\Providers;
 
-use Leeto\PhoneAuth\Livewire\PhoneVerification;
-use Leeto\PhoneAuth\SmsBox;
+use Ert3e\PhoneAuth\Livewire\PhoneVerification;
+use Ert3e\PhoneAuth\SmsBox;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use Livewire\Livewire;

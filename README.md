@@ -14,7 +14,7 @@ https://youtu.be/UaYx2VgXMEY
   
 - composer require lee-to/laravel-phone-auth
 
-- php artisan vendor:publish --provider="Leeto\PhoneAuth\Providers\PhoneAuthServiceProvider"
+- php artisan vendor:publish --provider="Ert3e\PhoneAuth\Providers\PhoneAuthServiceProvider"
 
 - configure config/phone_auth.php
 
@@ -58,7 +58,7 @@ protected $casts = [
 
 ### Check phone confirmed
 
-\Leeto\PhoneAuth\Models\ConfirmedPhone::confirmed($phone, $user_id = null);
+\Ert3e\PhoneAuth\Models\ConfirmedPhone::confirmed($phone, $user_id = null);
 
 
 #### Components properties (override config)

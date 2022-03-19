@@ -1,12 +1,12 @@
 <?php
 
-namespace Leeto\PhoneAuth\Models\Traits;
+namespace Ert3e\PhoneAuth\Models\Traits;
 
 use Illuminate\Support\Str;
 
 /**
  * Trait PhoneVerification
- * @package Leeto\PhoneAuth\Models\Traits
+ * @package Ert3e\PhoneAuth\Models\Traits
  */
 trait PhoneVerification
 {

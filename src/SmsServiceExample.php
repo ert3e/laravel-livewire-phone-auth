@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Leeto\PhoneAuth;
+namespace Ert3e\PhoneAuth;
 
 
 /**
  * Class SmsServiceExample
- * @package Leeto\PhoneAuth
+ * @package Ert3e\PhoneAuth
  */
 class SmsServiceExample implements SmsServiceInterface
 {

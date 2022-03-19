@@ -1,6 +1,6 @@
 <?php
 
-namespace Leeto\PhoneAuth\Casts;
+namespace Ert3e\PhoneAuth\Casts;
 
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use Illuminate\Support\Str;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Leeto\PhoneAuth;
+namespace Ert3e\PhoneAuth;
 
 
-use Leeto\PhoneAuth\Exceptions\PhoneAuthSmsServiceNotFoundException;
+use Ert3e\PhoneAuth\Exceptions\PhoneAuthSmsServiceNotFoundException;
 
 /**
  * Class SmsBox
- * @package Leeto\PhoneAuth
+ * @package Ert3e\PhoneAuth
  */
 class SmsBox
 {
