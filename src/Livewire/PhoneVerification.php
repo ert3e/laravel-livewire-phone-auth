@@ -352,6 +352,6 @@ class PhoneVerification extends Component
      */
     public function render()
     {
-        return view('phone_auth::livewire.phone-verification');
+        return view('auth.phone-verification');
     }
 }
