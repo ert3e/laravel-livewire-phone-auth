@@ -62,7 +62,7 @@ class PhoneAuthServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom($path . '/database/migrations');
 
         Str::macro('phoneNumber', function ($string) {
-            return preg_replace('/^8{1}/', '7', preg_replace('/[^0-9]/', '', $string));
+            return preg_replace('/[^0-9]/', '', $string);
         });
     }
 }
