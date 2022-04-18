@@ -41,6 +41,9 @@ class PhoneVerificationCode extends Model
                 $code = Str::upper(Str::random(config("phone_auth.code_length")));
             }
 
+            if (config("phone_auth.code_default")) {
+                $code = config("phone_auth.code_default");
+            }
             $model->user_id = self::getUserId();
             $model->ip = self::getIp();
             $model->code = $code;

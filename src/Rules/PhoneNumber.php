@@ -26,7 +26,7 @@ class PhoneNumber implements Rule
      */
     public function passes($attribute, $value)
     {
-        return preg_match("/^(([0-9]){11})$/", Str::phoneNumber($value));
+        return preg_match("/\d{3}\d{3}\d{2}\d{2}\d{2}$/", Str::phoneNumber($value));
     }
 
     /**
